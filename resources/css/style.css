@@ -126,3 +126,41 @@ nav {
   display: block;
   padding: 11px 20px;
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+}
+
+.logo-nav {
+  display: block;
+}
+
+.logo-nav .footer-logo {
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-nav {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.footer-nav  span {
+  padding: 20px 10px;
+}
+
+.copyright {
+  display: block;
+}
