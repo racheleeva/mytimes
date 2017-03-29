@@ -45,6 +45,9 @@ nav {
   margin: 0 auto 78px auto;
   padding-top: 116px;
   border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .column {
@@ -64,4 +67,28 @@ nav {
 
 .column.third {
   width: 240px;
+}
+
+.img-headline {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+.lead .img-headline {
+  background-image: url('../images/img-story-main.png');
+  font-size: 40px;
+  text-align: left;
+}
+
+.second.img-headline {
+  background-image: url('../images/img-story-2.png');
+}
+
+.third.img-headline {
+  background-image: url('../images/img-story-3.png');
 }
