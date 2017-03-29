@@ -39,3 +39,29 @@ nav {
   padding-right: 20px;
   display: block;
 }
+
+.Main-Container {
+  display: flex;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  border: 1px solid black;
+}
+
+.column.first {
+  width: 630px;
+}
+
+.column.second {
+  width: 300px;
+}
+
+.column.third {
+  width: 240px;
+}
